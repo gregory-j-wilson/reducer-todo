@@ -14,23 +14,23 @@ In this project, you build an app that let's you display a todo list from reduce
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal.
-- [ ] CD into the project base directory `cd reducer-todo`.
-- [ ] Create a new react app running `npx create-react-app todo --use-npm`.
-- [ ] CD into the react app directory `cd todo`.
-- [ ] Start up the app using `npm start`.
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your team lead as collaborator on Github.
+- [x] Clone your OWN version of the repository in your terminal.
+- [x] CD into the project base directory `cd reducer-todo`.
+- [x] Create a new react app running `npx create-react-app todo --use-npm`.
+- [x] CD into the react app directory `cd todo`.
+- [x] Start up the app using `npm start`.
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 ### Task 2a: Minimum Viable Product
 
 1. Set an initial state value through a reducer and render a list of todos from that state
 2. Add a form that dispatches an "ADD_TODO" action to be able to add a todo item to your list
-3. Build a function that let's you mark todo items as completed when you click on them
-4. Build a function that let's you clear completed todos when you click on a "Clear Completed" button
+3. Build a function that lets you mark todo items as completed when you click on them
+4. Build a function that lets you clear completed todos when you click on a "Clear Completed" button
 
 #### Build a simple reducer and initial state
 

@@ -1,0 +1,77 @@
+body {
+  font-family: 'Dancing Script', cursive;
+  background-image: url('./paper.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.list {
+  background-color: rgb(255, 255, 255, 0.4);
+  border-radius: 9px;
+  border: 1px solid white;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.completed {
+
+  text-decoration: line-through;
+
+}
+
+.item {
+  cursor: pointer;
+  font-family: 'Chilanka', cursive;
+  font-size: 1.2rem;
+}
+
+input {
+  width: 50%;
+  border-radius: 8px;
+  margin-top: 15px;
+  height: 40px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Chilanka', cursive;
+
+}
+
+input[type="text"]::placeholder {  
+                  
+  text-align: center; 
+} 
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+button {
+  width: 25%;
+  height: 70px;
+  background-color: #501D0C;
+  color: white;
+  font-family: 'Chilanka', cursive;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid white;
+  font-size: 1.3rem;
+  margin: 0px 10px;
+}
+
+button:hover {
+  background-color: #723f2e;
+}
