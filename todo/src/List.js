@@ -14,6 +14,7 @@ function List (props) {
 
                 }}>{todoitem.item}</p>
             })}
+            <p className='notice'>Click an item to strike-through when completed</p>
         </div>
 
     )

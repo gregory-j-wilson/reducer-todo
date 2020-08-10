@@ -43,8 +43,8 @@ export default function Form (props) {
                         placeholder='What do you need to do?'
 
                     ></input>
-                    <div className='buttons'><button type='submit'>Submit</button>
-                    <button onClick={clearCompleted}>Clear Completed</button></div>
+                    <div className='buttons'><button type='submit'>Add A Task</button>
+                    <button onClick={clearCompleted}>Clear Completed Tasks</button></div>
                 </form>
             </div>
         )

@@ -22,6 +22,12 @@ h1 {
   margin: 0 auto;
 }
 
+.notice {
+  font-family: 'Chilanka', cursive;
+  color: grey;
+  font-style: italic;
+}
+
 .completed {
 
   text-decoration: line-through;
