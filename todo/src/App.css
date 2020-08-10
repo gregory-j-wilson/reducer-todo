@@ -81,3 +81,20 @@ button {
 button:hover {
   background-color: #723f2e;
 }
+
+@media (max-width: 750px) {
+
+  .list {
+    width: 95%;
+  }
+
+  input {
+    width: 95%;
+  }
+
+
+  button {
+    width: 50%;
+  }
+
+}
