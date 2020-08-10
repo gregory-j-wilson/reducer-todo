@@ -8,7 +8,7 @@ function List (props) {
     return (
         <div className='list'>
             {props.todoList.map(todoitem => {
-                return <p className={`item ${todoitem.completed ? 'completed' : ''}`}    onClick={(e) => {
+                return <p key={todoitem.id} className={`item ${todoitem.completed ? 'completed' : ''}`}    onClick={(e) => {
 
                     props.dispatch({type: TOGGLE_TODO, payload: todoitem })
 
