@@ -8,23 +8,7 @@ export const FILTER_TODOS = 'FILTER_TODOS'
 export const initialState = {
     todo: [
 
-        {
-            item: 'Learn about reducers',
-            completed: false,
-            id: 3892987587
-        },
-
-        {
-            item: 'PRACTICE JAVASCRIPT',
-            completed: false,
-            id: 3892987588
-        },
-
-        {
-            item: 'Relax a little',
-            completed: false,
-            id: 3892987589
-        }
+       
 
     ]
 }
